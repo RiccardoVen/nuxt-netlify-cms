@@ -92,9 +92,7 @@ export default {
     ['@nuxtjs/google-tag-manager', { id: 'GTM-PV76V8S' }],
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-    'nuxt-fontawesome',
-    'nuxt-webfontloader'
+    '@nuxtjs/robots'
   ],
 
   /**
@@ -104,29 +102,6 @@ export default {
     google: {
       families: ['Rubik:400,700', 'Karla:400,700,400i,700i'] // Loads Lato font with weights 400 and 700
     }
-  },
-
-  /**
-   * Font Awesome
-   */
-  fontawesome: {
-    imports: [
-      {
-        set: '@fortawesome/free-brands-svg-icons',
-        icons: [
-          'faTwitter',
-          'faInstagram',
-          'faGithub',
-          'faVuejs',
-          'faReact',
-          'faJs',
-          'faDocker',
-          'faWordpress',
-          'faNodeJs',
-          'faYarn'
-        ]
-      }
-    ]
   },
 
   /**
